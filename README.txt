@@ -1,6 +1,6 @@
 ** Description **
 
-Hi, I am Ankit kumar. I am a second year college student who is working on the  Attendance using Face recognition using a self designed API in flask.
+Hi, I am Saurabh kumar atul. I am a third year college student who is working on the  Attendance using Face recognition using a self designed API in flask.
 The code is written in python version 3.10.4. The basic knowledge of HTML and CSS is being utilized. For the development of the webpages.
 The app can register a user in a database and each put up his attendance by recognizing his face and is directly put up on the excel file depending on the time.
 It has also admin control where he can see data of all the user and remove the registered user. It is like a portal where each user has id and password.
