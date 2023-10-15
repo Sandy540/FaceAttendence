@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='main.css')}}">
+    <title>Home</title>
+</head>
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+            <li ><a href="/">Home</a></li>
+            <li><a href="/login">Github</a></li>
+            <li class="topnav-right"><a href="/">Admin Logout</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+    <h1>Attendance Project</h1>
+    </div>
+    <div class="choices">
+        <div class="admin_instruction">
+            <a href="/delete"><button class="delete">Delete Registration</button></a>
+        </div>
+        <div class="admin_instruction">
+            <a href="/admin_view"><button class="view">View Registered Attendance</button></a>
+        </div>
+</body>
+</html>
